@@ -126,12 +126,13 @@ html,body
 }
 
 .footer-text{
-    position: absolute;
+    display: inline-block;    /*  changes made */
     left:7%;
     bottom:44%;
     height: 50%;
     width: 15%;
     color: white;
+    margin-left: 2%;          /*  changes made */
 }
 
 .footer-section img{
