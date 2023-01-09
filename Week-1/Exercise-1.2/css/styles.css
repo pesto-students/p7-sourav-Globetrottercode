@@ -1,0 +1,161 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    font-family: 'Lato', sans-serif;
+}
+/* ///////////////////////////////Top Section ///////////////////////*/
+.top-section{
+    position: relative;
+    background-color: #413F42;
+    height: 35%;
+    width: 100%;
+    z-index: 0;
+    
+}
+
+.top-section img{
+    position: relative;
+    left: 100px;
+    height : 80%;
+    top: 23px;
+}
+.top-text{
+    color: white;
+    position:relative;
+    bottom : 80%;
+    left:25%;
+}
+
+
+
+.top-icons{
+    position: relative;
+    width : 25%;
+    height: 20px;
+    color:white;
+    left: 24.4%;
+}
+
+.top-icons i{
+    margin-left: 3%;
+}
+
+
+/* ///////////////////////////////////////////Sidebar ////////////////////////// */
+.sidebar{
+
+    position: absolute;
+    top: 5px;
+    width: 50px;
+    background-color: #EAEAEA;
+    height: 99%;
+    z-index: 2;
+    
+}
+
+.sidebar i{
+    display: block;
+    text-align: center;
+    padding-top: 100%;
+    
+}
+
+/*////////////////////////////////////////// Body Section //////////////////////////////////////*/
+.body-section{
+    position: relative;
+    background-color: white;
+    height: 50%;
+    width: 100%; 
+    z-index: 1;
+}
+
+.songs{
+    position: relative;
+    height : 15%;
+    width: 95%;
+    
+    left: 4%;
+}
+
+.songs-even{
+    position: relative;
+    height : 15%;
+    width: 95%;
+    background-color: #EFEFEF;
+    left: 4%;
+}
+.info-song{
+    position: relative;
+    top: 30%;
+    width: 90%;
+}
+.body-section a{
+    border-style: solid;
+    border-color: black;
+}
+
+
+.Catty-link{
+    position: absolute;
+    left: 85%;
+}
+
+.time{
+    position: absolute;
+    left:60%;
+}
+
+.artist{
+    position: absolute;
+    left:30%
+}
+
+/*/////////////////////////////////////// Footer Section //////////////////////////*/
+
+.footer-section{
+    z-index: 3;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: #3E6D9C;
+}
+
+.footer-text{
+    display: inline-block;    /*  changes made */
+    left:7%;
+    bottom:44%;
+    height: 50%;
+    width: 15%;
+    color: white;
+    margin-left: 2%;          /*  changes made */
+}
+
+.footer-section img{
+    position: relative;
+    height : 80%;
+    top: 10px;
+    left: 10px;
+
+}
+
+.footer-icons{
+    position : relative;
+    left: 53%;
+    bottom: 40%;
+    color: #fff;
+    width: 45%;
+}
+.footer-icons i{
+    margin-left : 16%;
+}
+
+
+
+
+
+
