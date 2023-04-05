@@ -26,7 +26,7 @@ let months = [
 
 let info = ["income", "expense", "savings"];
 let recordFile = {};
-for (let i = 2018; i <= 2023; i++) {
+for (let i = 2018; i <= 2026; i++) {
   recordFile[i] = {};
   for (let j = 0; j < months.length; j++) {
     recordFile[i][months[j]] = {};

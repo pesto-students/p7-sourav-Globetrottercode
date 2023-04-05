@@ -84,8 +84,10 @@ regd_users.put("/auth/assets/update", async (req, res) => {
     SIP,
     actualMail
   );
-  let message = "Your asset file at Wealth Portfolio has recently been updated";
-  let mailRes = await sendMail(actualMail, message);
+  let message =
+    "<h2><b>Hello User!</b><h2><br><h4>Your Asset File at Wealth Portfolio has recently been updated</h4>";
+  let subject = "Asset File Change";
+  let mailRes = await sendMail(actualMail, message, subject);
   res.send(await result);
 });
 

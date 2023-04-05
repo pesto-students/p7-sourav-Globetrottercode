@@ -1,6 +1,6 @@
 var nodemailer = require("nodemailer");
 
-async function sendMail(email = "dassouvik14102000@gmail.com", message) {
+async function sendMail(email, message, subject) {
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
@@ -15,7 +15,7 @@ async function sendMail(email = "dassouvik14102000@gmail.com", message) {
   let info = await transporter.sendMail({
     from: '"Wealth Portfolio 💰" <dassouvik14102000@gmail.com>', // sender address
     to: email, // list of receivers
-    subject: "Asset File Change", // Subject line
+    subject: subject, // Subject line
     text: "Some message", // plain text body
     html: message, // html body
   });

@@ -70,7 +70,8 @@ records_route.put("/updateRecord", async (req, res) => {
         savings
       );
       let message = `<h2><b>Hello User!</b><h2><br><h4>Your Record File at Wealth Portfolio for ${month},${year} has recently been updated</h4>`;
-      let mailRes = await sendMail(email, message);
+      let subject = "Record File Change";
+      let mailRes = await sendMail(email, message, subject);
       res.send(await result);
     } else {
       res.send("Create your record file first");
